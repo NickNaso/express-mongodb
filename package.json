@@ -1,0 +1,49 @@
+{
+  "name": "express-mongodb",
+  "description": "How to connect to MongoDB in express.js application",
+  "version": "1.0.0",
+  "contributors": [
+    {
+      "name": "Nicola Del Gobbo",
+      "email": "nicoladelgobbo@gmail.com"
+    }
+  ],
+  "keywords": [
+    "expressjs",
+    "mongodb",
+    "database",
+    "NoSQL",
+    "connection",
+    "resources"
+  ],
+  "license": "Apache-2.0",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NickNaso/express-mongodb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NickNaso/express-mongodb/issues"
+  },
+  "homepage": "http://www.nacios.it/",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.11",
+    "morgan": "^1.7.0",
+    "response-powered-by": "^1.0.3",
+    "response-time": "^2.3.1"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md",
+    "index.js",
+    "lib/"
+  ]
+}
